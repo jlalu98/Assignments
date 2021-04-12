@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+		<title>
+			Registration Page
+		</title>
+		<style>
+			body{
+				font-family: Calibri, Helvetica, sans-serif; 
+				background-color:pink;
+				}
+			h1{
+				color:;
+				padding:20px;
+			}
+			hr{
+				border:1px solid pink;
+			}
+			.userdetail{
+				background: linear-gradient(to bottom, #33ccff 59%, #ff99cc 89%);
+				padding:35px;
+			}
+			#fname{
+				width:100%;
+				height:40px;
+				margin:8px;
+				border:none;
+			}
+			#mname{
+				width:100%;
+				height:40px;
+				margin:8px;
+				border:none;
+			}
+			#lname{
+				width:100%;
+				height:40px;
+				margin:8px;
+				border:none;
+			}
+			#countrycode{
+
+				width:5%;
+				height:35px;
+				margin:8px;
+				border:none;
+			}
+			#phoneno{
+				width:90%;
+				height:35px;
+				margin:8px;
+				border:none;
+			}
+			#address{
+				width:100%;
+				height:80px;
+				margin:8px;
+				border:none;
+			}
+			#email{
+			width:100%;
+				height:35px;
+				margin:8px;
+				border:none;
+			}
+			#pass{
+			width:100%;
+				height:35px;
+				margin:8px;
+				border:none;
+			}
+		.registrbutton{
+		background-color:#4CAF50;
+		width:100%;
+		height:35px;
+		color:white;
+		cursor:pointer;
+		
+		}
+		.registrbutton:hover{
+		opacity:1;
+		background-color:lightblue;
+		}
+		
+				
+				
+		</style>
+	</head>
+	<body>
+		<div class="userdetail">
+				<h1 align ="center"> USER REGISTRATION</h1>
+				<hr>
+				<br>
+		
+				<label for="fname">First Name:*</label><br>
+				<input type="text" id="fname" name="fname" placeholder="First Name" size="25" required/><br>
+				
+				<label for="mname">Middle Name:</label><br>
+				<input type="text" id="mname" name="mname" placeholder="Middle Name" size="25" /><br>
+				
+				<label for="lname">First Name:*</label><br>
+				<input type="text" id="lname" name="lname" placeholder="Last Name" size="25" required/><br>
+				
+				<label for="course">Course:*</label>
+				<select>
+					<option value="Course">Course</option>
+					<option value="B.Tech">B.Tech</option>
+					<option value="M.Tech">M.Tech</option>
+					<option value="Bsc">Bsc</option>
+					<option value="Msc">Msc</option>
+					<option value="BCA">BCA</option>
+					<option value="MCA">MCA</option>
+					<option value="MBA">MBA</option>
+				</select>
+				<br><br>	
+				<label>Gender:*</label><br>
+				<input type="radio" id="male" name="gender" value="male"required/>
+				<label for="gender">Male</label>
+				<input type="radio" id="female" name="gender" value="female"required/>
+				<label for="gender">Female</label>
+				<input type="radio" id="others" name="gender" value="others"required/>
+				<label for="gender">Others</label><br><br>
+				
+				<label>Phone:*</label><br>
+				<input type="text" id="countrycode" name="countrycode" placeholder="+91" size="2"required/>
+				<input type="text" id="phoneno" name="phoneno" placeholder="9999999999" size="10"required/>
+			<br><br>
+				<label>Current Adress:*</label><br>
+				<input type="text" id="address" name="address" placeholder="Current Adress" required/>
+			<br><br>
+			<label>Email:*</label><br>
+			<input type="text" id="email" placeholder="Enter Email" name="email" required>  
+			<br><br>
+			<label>Password:*</label><br>
+			 <input type="password" id="pass" placeholder="Enter Password" name="psw" required>
+			<br><br>
+			<label>Retype Password:*</label><br>
+			<input type="password" id="pass" placeholder="Retype Password" name="psw-repeat" required>  
+			<br><br>
+			<button type="submit" class="registrbutton">Register</button>
+				
+			<form>
+				
+			</form>
+		</div>
+	</body>
+</html>
